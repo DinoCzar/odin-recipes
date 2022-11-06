@@ -1,7 +1,16 @@
-h1 {
+h1,
+p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
+}    
 
-p {
-    font-family: Arial, Helvetica, sans-serif
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+div img {
+    width: 400px;
 }
